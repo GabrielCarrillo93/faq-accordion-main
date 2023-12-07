@@ -1,6 +1,8 @@
+
 import AccordionItem from '../AccordionItem/AccordionItem'
 
 const Accordion = () => {
+    
   return (
     <>
         <AccordionItem 

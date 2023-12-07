@@ -2,4 +2,56 @@
 
 *{
     font-family: 'WorkSans', sans-serif;
+    /*border: 1px solid red;*/
+}
+
+.contenedor{
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 64px;
+}
+
+.tituloprincipal{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin: 16px;
+}
+
+h1{
+    font-size: 40px;
+    color: var(--dark-purple);
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--light-pink);
+    padding-bottom: 8px;
+}
+
+footer > p{
+    color: black;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--dark-purple);
+}
+
+@media screen and (min-width: 1440px){
+    .contenedor{
+        margin-top: 7rem;
+    }
+    h1{
+        font-size: 60px;
+    }
 }
